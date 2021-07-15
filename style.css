@@ -1,0 +1,128 @@
+#tudo{
+    width: 920px;
+}
+body{
+    font-family: Helvetica, "Trebuchet", sans-serif;
+}
+
+#header{
+    background-color: #006FC9;
+    position: relative;
+    top: -18px;
+    padding-top: 10px;
+    height: 35px;
+    width: 1300px;
+}
+
+ul li{
+    float:left;
+   /* padding: 10px;*/
+    list-style: none;
+    margin-top: -3px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    list-style: unset;
+    margin: 14px;
+    line-height: 12px;
+    padding: 5px;
+    font-size: 10pt;
+}
+
+ul li a:hover{
+    color: #006FC9;
+    background-color: white;
+}
+
+#selecao{
+    color:white;
+    background-color:#006FC9;
+    border: none;
+}
+
+body{
+    background-color: #CECACD;
+}
+
+#corpo{
+    
+    padding: 10px 70px;
+    width: 300px;
+}
+
+.menu{
+    border: 1px solid black;
+    margin: 100px;
+    line-height: 7px;
+    width: 150px;
+   /* float: right;*/
+}
+
+#corpo h2{
+    display: inline;
+    color: #323130; 
+}
+
+.subnome{
+    width: 500px;
+    line-height: 7px;
+    margin-left: 125px;
+}
+#fotos{
+    display: flex;
+    width: 1300px;
+    height:600px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.fotos2{
+    display: flex;
+    width: 980px;
+    height: 600px;
+    flex-wrap: nowrap;
+}
+.fotos{
+    margin: 16px;
+    width: 600px;
+    padding: 13px;
+    background-color: white;
+}
+
+.imagem{
+    width:250px;
+    height: 250px;
+}
+
+.fotos h4, h5, p{
+    color: #6E6D6C;
+}
+
+.fotos a{
+    text-decoration: none;
+    color: #418ECF;
+}
+.fotos p{
+    font-size: 0.8em;
+}
+
+.subcorpo img{
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: 80px;
+    border-radius: 100px;
+}
+
+.rodape a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #418ECF;
+}
+
+.rodape{
+    margin: 17px;
+}
+
+
